@@ -1,0 +1,80 @@
+.main-header {
+  width: 100%;
+}
+.header-wrapper {
+  width: 100%;
+  min-height: 564px;
+  position: relative;
+  background-image: url("../../img/sedona-decoration-line.png"),
+                    url("../../img/sedona-background.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+  background-position: bottom, top;
+}
+.inner-wrapper {
+  min-height: auto;
+}
+.main-navigation {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.main-navigation__list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-navigation__item {
+  width: 20%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px 0;
+  line-height: 26px;
+}
+.main-navigation a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.main-navigation a:hover {
+  color: #81b3d2;
+}
+.main-navigation a:active {
+  opacity: 0.3;
+}
+.main-navigation a.active {
+  color: #766357;
+}
+.main-navigation__logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -69px;
+}
+.main-navigation__item:nth-child(2) {
+  margin-right: 20%;
+}
+.big-logo {
+  display: block;
+  margin: 76px auto 0 auto;
+}
+@media (min-width: 783px){
+  .big-wrapper {
+    width: 100%;
+  }
+  .header-wrapper {
+    background-size: contain, cover;
+  }
+
+}
+@media (min-width: 1215px) {
+  .big-wrapper {
+    width: 1200px;
+  }
+  .header-wrapper {
+    width: 1200px;
+  }
+}

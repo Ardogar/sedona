@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between; 
   flex-wrap: wrap;
-  background-image: url("../../img/filter-background.jpg");
+  background-image: url("../img/filter-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -172,9 +172,9 @@
 .housing__item:last-child {
   margin-bottom: 0;
 }
-.hidden-input {
-  display: none;
-}
+// .hidden-input {
+//   display: none;
+// }
 .housing label {
   padding-left: 40px;
   position: relative;
@@ -194,13 +194,17 @@
   position: absolute;
   top: -3px;
   left: 0;
-  background-image: url("../../img/icon-checkbox-off.svg");
+  background-image: url("../img/icon-checkbox-off.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
 .housing input[type="checkbox"]:checked + .checkbox-indicator {
-  background-image: url("../../img/icon-checkbox-on.svg");
+  background-image: url("../img/icon-checkbox-on.svg");
   background-repeat: no-repeat;
+}
+.housing input[type="checkbox"]:focus + .checkbox-indicator {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
 }
 .infrastructure input[type="checkbox"] + .checkbox-indicator {
   width: 27px;
@@ -208,12 +212,16 @@
   position: absolute;
   top: -3px;
   left: 0;
-  background-image: url("../../img/icon-checkbox-off.svg");
+  background-image: url("../img/icon-checkbox-off.svg");
   background-repeat: no-repeat;
 }
 .infrastructure input[type="checkbox"]:checked + .checkbox-indicator {
-  background-image: url("../../img/icon-checkbox-on.svg");
+  background-image: url("../img/icon-checkbox-on.svg");
   background-repeat: no-repeat;
+}
+.infrastructure input[type="checkbox"]:focus + .checkbox-indicator {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
 }
 .result-search {
   background-color: #ffffff;
@@ -307,7 +315,7 @@
 .rating-stars {
   height: 17px;
   width: 18px;
-  background-image: url("../../img/star.png");
+  background-image: url("../img/star.png");
   background-repeat: no-repeat;
   background-position: top right;
   margin-left: auto;

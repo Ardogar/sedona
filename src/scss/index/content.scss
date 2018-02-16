@@ -73,12 +73,12 @@
   width: 512px;
 }
 .pic-wrapper1 {
-  background-image: url("../../img/sedona-background2.jpg");
+  background-image: url("../img/sedona-background2.jpg");
   background-size: cover;
 
 }
 .pic-wrapper2 {
-  background-image: url("../../img/sedona-background3.png");
+  background-image: url("../img/sedona-background3.png");
   background-size: cover;
 }
 .motive__advantages {
@@ -103,7 +103,7 @@
   left: 50%;
   margin-left: -37.5px;
   top: 60px;
-  background-image: url("../../img/icon-house.svg");
+  background-image: url("../img/icon-house.svg");
 }
 .motive__advantages-item:nth-child(2)::before {
   content: "";
@@ -113,7 +113,7 @@
   left: 50%;
   margin-left: -37px;
   top: 60px;
-  background-image: url("../../img/icon-food.svg");
+  background-image: url("../img/icon-food.svg");
 }
 .motive__advantages-item:nth-child(3)::before {
   content: "";
@@ -123,7 +123,7 @@
   left: 50%;
   margin-left: -32px;
   top: 60px;
-  background-image: url("../../img/icon-gift.svg");
+  background-image: url("../img/icon-gift.svg");
 }
 .advantages-text {
   margin: 0;
@@ -350,7 +350,7 @@
 .map {
   height: 476px;
   width: 100%;
-  background-image: url("../../img/map.jpg");
+  background-image: url("../img/map.jpg");
   background-position: center;
 }
 @media (min-width: 783px) {

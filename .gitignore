@@ -1,10 +1,8 @@
 *.log
 *.pdf
-*.psd
 *.sublime*
-src/css/*.css
-src/css/**/*.css
 node_modules/
 npm-debug.*
 Thumbs.db
 psd/
+*.directory
